@@ -1,0 +1,192 @@
+.page-header{
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+  .logo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 60px;
+    padding: 10px 0 10px 10px;
+    .logo-img{
+      height: 40px;
+    }
+  }
+  .title{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.30rem;
+  }
+}
+.main-header{
+  background-color: #ffffff;
+  padding: 0 0.3rem 0.3rem 0.3rem;
+  .title{
+    font-size: 0.4rem;
+    text-align: center;
+    line-height: 0.6rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+  }
+  .desc{
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+  }
+}
+/*小cell*/
+.mini-cell{
+  font-size: 0.24rem;
+}
+.image-info-cell.weui-cell{
+  .vux-cell-bd{
+    max-width: 2rem;
+  }
+  .left-box{
+    .img-cell{
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+  .right-box{
+    text-align: left;
+    .title{
+      line-height: 0.6rem;
+    }
+    .desc{
+      line-height: 0.6rem;
+    }
+  }
+}
+.detail-item{
+}
+.btn-box{
+  padding: 0.3rem 0.3rem;
+}
+.feature-box{
+  background-color: #ffffff;
+  .title{
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.3rem;
+  }
+  .btn-box{
+    .weui-btn{
+      font-size: 16px;
+      line-height: 0.8rem
+    }
+  }
+  .center-step{
+    .vux-step-item{
+      text-align: center;
+      flex: 1;
+      .vux-step-item-main{
+        display: block;
+      }
+      .vux-step-item-tail{
+        display: block !important;
+        left: 0;
+        right: 0;
+
+      }
+      &:first-child{
+        .vux-step-item-tail{
+          left: 50% !important;
+        }
+      }
+      &:last-child{
+        .vux-step-item-tail{
+          right: 50% !important;
+        }
+      }
+    }
+    .vux-step-item-description{
+      background-color: #ffffff;
+    }
+  }
+  .step-box{
+    padding: 0.3rem 0.2rem;
+    .img-info{
+      display: flex;
+      .info-box{
+        .title{
+          padding-left: 0.1rem;
+          line-height: 0.6rem;
+        }
+        .desc{
+          padding-left: 0.1rem;
+          line-height: 0.6rem;
+        }
+      }
+    }
+    .img-cell{
+      width: 1rem;
+      height: 1rem;
+      display: inline-block;
+    }
+  }
+}
+
+.popup-json{
+  .jsoneditor-vue{
+    .jsoneditor{
+    }
+    .jsoneditor-outer{
+      max-height: 8rem;
+      min-height: 6rem;
+      overflow: auto;
+    }
+    .jsoneditor-search{
+      display: none;
+    }
+  }
+}
+
+/*上传控件*/
+.upload-box{
+  display: flex;
+  .upload-btn{
+    display: inline-block;
+    color: #ffffff;
+    background-color: #b28d19;
+    border-radius: 5px;
+    line-height: 0.4rem;
+    font-size: 0.2rem;
+    padding: 0.1rem 0.2rem;
+  }
+  .upload-input{
+    display: none;
+  }
+  .name{
+    line-height: 0.4rem;
+    padding: 0.1rem 0.2rem;
+    white-space: nowrap;
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .clear-btn{
+    display: inline-block;
+    color: #ffffff;
+    background-color: #006097;
+    border-radius: 5px;
+    line-height: 0.4rem;
+    font-size: 0.2rem;
+    padding: 0.1rem 0.2rem;
+  }
+}
+
+// 播放视频
+.video-dialog{
+  .icon-inner{
+    padding: 0.4rem;
+    .vux-x-icon{
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+}
+body {
+  .yd-dialog-black-mask, .yd-dialog-white-mask{
+    z-index: 5001;
+  }
+}
+

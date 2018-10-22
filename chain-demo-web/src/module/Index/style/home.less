@@ -1,0 +1,80 @@
+.page-home{
+  .banner-box {
+    .banner-body{
+      max-width: 1496px;
+      min-width: 1190px;
+      margin: 0 auto;
+      .banner{
+        width: 100%;
+      }
+      .el-carousel__container{
+        height: 573px;
+      }
+    }
+    @media screen and (max-width: 1396px) {
+      .banner-body{
+        .el-carousel__container{
+          height: 534px;
+        }
+      }
+    }
+    @media screen and (max-width: 1296px) {
+      .banner-body{
+        .el-carousel__container{
+          height: 496px;
+        }
+      }
+    }
+  }
+
+  .scene-box{
+    background-color: #ffffff;
+    .title{
+      font-size: 28px;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .scene-list{
+      text-align: center;
+      .scene-item{
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        font-size: 20px;
+        .image{
+          width: 100px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .about-box{
+    background-color: #ffffff;
+    padding: 30px 0;
+    min-height: 350px;
+    .left-box{
+      vertical-align: middle;
+      line-height: 300px;
+      text-align: center;
+    }
+    .image{
+      display: inline-block;
+      width: 200px;
+      vertical-align: middle;
+    }
+    .title{
+      font-size: 30px;
+      line-height: 50px;
+      margin-bottom: 20px;
+    }
+    .desc{
+      line-height: 40px;
+      font-size: 20px;
+    }
+    &.even{
+      background-color: #f4f4f5;
+    }
+  }
+}
+
